@@ -1,34 +1,113 @@
 body {
-	background: url('../images/cookie-monster.jpg');
-	font-family: 'Roboto Condensed', sans-serif;
-	/* the follow is the code to have the image display as a full page */
-	background-position: center;
-	background-attachment: fixed;
-	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-#container {
 	background-color: #0A192F;
-	width: 424px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: #77809A;
+	margin: 0px;
+	line-height: 1.3;
+}
+
+main.fillHeight {
+	padding: 0px 150px;
+}
+
+.ajustmentsIntro {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: flex-start;
+	min-height: 100vh;
+	padding: 0px;
+}
+
+.ajustmentsIntro h1 {
+	color: #64FCDA;
+	font-size: clamp(14px, 5vw, 16px);
+	font-weight: 400;
+	margin: 0px 0px 30px 4px;
+}
+
+.ajustmentsIntro h2 {
 	color: #C4CEED;
-	padding: 15px;
 }
 
-h1 {
-	font-size: 80px;
+.heading {
+	margin: 0px;
+	font-size: clamp(40px, 8vw, 80px);
 }
 
-h2 {
-	background: #087E8B;
-	color: #C4CEED;
-	padding: 5px;
-	border-radius: 5px;
+.ajustments p {
+	margin: 20px 0px 0px;
+	max-width: 540px;
 }
 
-a{
-	color: #087E8B;
+.socialMediaLinks {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+
+.socialMediaLinks a {
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.socialMediaLinks a svg {
+	width: 20px;
+	height: 20px;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #77809A;
+	border: 3px solid #0A192F;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #0A192F;
+}
+
+.ajustmentsFooter{
+	display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+}
+
+.ajustemtFooterContent a{
+	color: #77809A;
+    font-size: 13px;
+	font-weight: 600;
+}
+
+section {
+	margin: 0px auto;
+	max-width: 1000px;
+}
+
+a {
+	color: #64FCDA;
 	text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+	color: #77809A;
+	line-height: 1.1;
 }
