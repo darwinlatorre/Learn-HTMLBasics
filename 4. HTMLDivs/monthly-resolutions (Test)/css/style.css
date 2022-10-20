@@ -1,0 +1,165 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+     /* Firexfox */
+     -webkit-box-sizing: border-box;
+     /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box;
+     /* IE */
+}
+
+.clear {
+     clear: both;
+}
+
+body {
+     background-image: url("../images/notebook.png");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     margin: 0;
+     font-weight: lighter;
+}
+
+img {
+     padding: 10px 0 10px 0;
+}
+
+hr {
+     background-color: black;
+     margin-top: 15px;
+}
+
+a {
+     color: rgb(255, 123, 0);
+     text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+.bold-text {
+     font-weight: bold;
+}
+
+.margin-top15-text {
+     margin: 15px 0 0 0;
+}
+
+.margin-top5-text {
+     margin: 5px 0 0 0;
+}
+
+.img-auto {
+     width: 100%;
+     height: 100%;
+}
+
+.round-image {
+     border-radius: 50%;
+}
+
+.no-margin {
+     margin: 0;
+}
+
+.comment-paragraf {
+     color: rgb(143, 143, 143);
+}
+
+.split {
+     padding-bottom: 40px;
+}
+
+#container {
+     width: 1000px;
+     margin: 0 auto;
+}
+
+#header {
+     padding: 50px 0 30px 0;
+}
+
+#header h1 {
+     margin: 30px 0 0 0;
+     font-size: 50px;
+     font-weight: bold;
+}
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+#main-sidebar {
+     padding: 0 auto;
+}
+
+#main {
+     background-color: white;
+     padding: 25px;
+     width: 695px;
+     float: left;
+}
+
+#main-sidebar p {
+     font-size: small;
+}
+
+/*----------------------------------------------------------------------------- 
+04=SIDEBAR  
+-----------------------------------------------------------------------------*/
+
+#sidebar {
+     background-color: white;
+     padding: 25px;
+     margin: 0 0 0 10px;
+     width: 295px;
+     float: left;
+}
+#sidebar h6 {
+     font-size: 18px; 
+}
+
+
+#profile-image {
+     width: 150px;
+     height: 180px;
+}
+
+#social-medialist {
+     font-size: 18px;
+}
+
+#quote {
+     background-color: gray;
+}
+
+#quote p{
+     background-color: white;
+     margin-left: 5px;
+     padding-left: 10px;
+     font-style: italic;
+}
+/*----------------------------------------------------------------------------- 
+04=FOOTER  
+-----------------------------------------------------------------------------*/
+#footer p{
+     margin: 16px 0 10px 0;
+}

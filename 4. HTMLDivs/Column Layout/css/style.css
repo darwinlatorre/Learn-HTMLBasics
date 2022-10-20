@@ -1,0 +1,62 @@
+/*----------------------------------------------------------------------------- 
+=01 BASE STYLES 
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear Class */
+.clear {
+	clear: both;
+}
+
+a {
+     text-decoration: none;
+}
+
+.alignleft {
+     float: left;
+     margin: 0 15px 15px 0;
+}
+
+.alignright {
+     float: right;
+     margin: 0 0 15px 15px;
+}
+
+/*----------------------------------------------------------------------------- 
+=02 LAYOUT 
+-----------------------------------------------------------------------------*/
+
+#container {
+     width: 920px;
+     margin: 0 auto;
+}
+
+#header {
+     background-color: #8892B0;
+     padding: 50px;
+}
+
+#main {
+     width: 680px;
+     background-color: #A8B2D1;
+     padding: 50px;
+     float: left;
+}
+
+#sidebar {
+     width: 240px;
+     background-color: #E6F1FF;
+     padding: 30px;
+     float: left;
+}
+
+#footer {
+     background-color: #CCD6F6;
+     padding: 50px;
+}
