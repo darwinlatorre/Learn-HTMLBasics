@@ -69,6 +69,13 @@ h2 {
   margin: 100px auto;
 }
 
+#information {
+  background: white;
+}
+#information section:nth-child(even) {
+  background: #DDD;
+}
+
 /*
  * Hero Styles
 */
@@ -96,14 +103,6 @@ section.intro, section.contact{
   padding: 40px;
 }
 
-section.intro {
-  background: white;
-}
-
-section.contact {
-  background: #DDD;
-}
-
 /*
  * Aside Styles
 */
@@ -119,6 +118,5 @@ aside {
   margin-right: 1.5rem;
   margin-bottom: 0.625rem;
 }
-
 
 
